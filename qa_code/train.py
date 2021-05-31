@@ -180,7 +180,7 @@ class Param:
         self.parser.add_argument('--fine_tune', type=bool, default=False)
         self.parser.add_argument('--num_verbs', type = int, default=4)
         self.parser.add_argument('--num_nouns', type = int, default=6)
-        self.parser.add_argument('--vse_loss_weight', type=float, default=3.0)
+        self.parser.add_argument('--vse_loss_weight', type=float, default=0.)
         self.parser.add_argument('--ref_graph_file', type = str, default='/mnt/hdd4/leiyu/all_dataset/HGR_T2V/MSVD/annotation/RET/sent2rolegraph.augment.json') 
         self.parser.add_argument('--reconstructor_flag', type=bool, default=False)
         self.parser.add_argument('--predict_forward_flag', type=bool, default=False)
